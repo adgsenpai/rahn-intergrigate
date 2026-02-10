@@ -79,9 +79,9 @@ const VerificationDemo: React.FC = () => {
               <Server className="w-16 h-16 text-red-500 mb-2" />
               <p className="mt-4 text-red-400 font-mono text-sm">Querying Databases...</p>
               <div className="text-xs text-red-800 font-mono mt-2 space-y-1">
-                 <div>> CIPC: CHECKING</div>
-                 <div>> HOME AFFAIRS: CHECKING</div>
-                 <div>> SANCTIONS: CLEAR</div>
+                 <div>{'>'} CIPC: CHECKING</div>
+                 <div>{'>'} HOME AFFAIRS: CHECKING</div>
+                 <div>{'>'} SANCTIONS: CLEAR</div>
               </div>
             </motion.div>
           )}
